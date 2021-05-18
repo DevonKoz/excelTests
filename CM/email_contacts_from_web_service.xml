@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<contacts>
+    <contact name="George White">
+        <firstName>George</firstName>
+        <lastName>White</lastName>        
+        <email>georgew@somecompany.com</email>
+        <telephone>123-555-6780</telephone>        
+        <address>1789 Elm Street</address>
+        <zip>32940</zip>
+    </contact>
+    <contact name="Jane Doe">
+        <firstName>Jane</firstName>    
+        <lastName>Doe</lastName>
+        <email>janed@somecompany.com</email>
+        <telephone>123-555-5679</telephone>                     
+        <address>189 Maple Street</address>
+        <zip>32901</zip>
+    </contact>
+    <contact name="Maria Garcia">
+        <firstName>Maria</firstName>
+        <lastName>Garcia</lastName>
+        <email>maria@yahoo.com</email>
+        <telephone>123-555-6789</telephone>  
+        <address>Sycamore Lane</address>
+        <zip>32902</zip>
+    </contact>
+    <contact name="James Smith">
+        <firstName>James</firstName>
+        <lastName></lastName>            
+        <email>jamess@somecompany.com</email>
+        <telephone>123-555-1234</telephone>             
+        <address>9 Oak Blvd.</address>
+        <zip>32901</zip>
+    </contact>
+</contacts>

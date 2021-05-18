@@ -1,0 +1,21 @@
+# chiefs.scl - sample script to sort the chiefs file by state
+#three digit columns not supported by XLS- maximum column value is IV
+/INFILE=chiefs
+/PROCESS=RECORD
+	/FIELD=(name,pos=1,size=27)
+	/FIELD=(year,pos=28,size=12)
+	/FIELD=(party,pos=40,size=5)
+	/FIELD=(state,pos=45,size=2)
+/REPORT
+/OUTFILE="'Sheet1'!BA1:BD45,HEADER;chiefsAllXLSeasy.xls"
+    /PROCESS=XLS
+/FIELD=(name,pos=1,size=27,SDEF="NAME=BA")
+	/FIELD=(year,pos=28,size=12,sdef="YEAR=BB")
+	/FIELD=(party,pos=40,size=5,SDEF="PARTY=BC")
+	/FIELD=(state,pos=45,size=2,SDEF="STATE=BD")
+/OUTFILE="chiefsALLXLS.xls"
+/PROCESS=XLS
+/FIELD=(name)
+/FIELD=(year)
+/FIELD=(party)
+/FIELD=(state)

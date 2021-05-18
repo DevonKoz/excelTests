@@ -1,0 +1,16 @@
+/INFILE=Purchases
+    /SPECIFICATION=Purchases.ddf
+/INFILE=Customers
+    /SPECIFICATION=Customers.ddf
+/JOIN RIGHT_OUTER Purchases Customers WHERE \
+ Purchases.Acct_nb == Customers.Acct_nb
+/OUTFILE="H;Billsrightouter.xlsx"
+/ALIAS=Bills
+/PROCESS=XLSX
+    /FIELD=(Item,POS=1,SEPARATOR="\t",SDEF="Item=A")
+    /FIELD=(Charge,POS=2,SEPARATOR="\t",SDEF="Charge=B")
+    /FIELD=(Purchases.Acct_nb,POS=3,SEPARATOR="\t",SDEF="P_Ac#=C")
+    /FIELD=(Customers.Acct_nb,POS=4,SEPARATOR="\t",SDEF="C_Ac#=D")
+    /FIELD=(Name,POS=5,SEPARATOR="\t",SDEF="Customer=E")
+    /FIELD=(Balance,POS=6, SEPARATOR="\t",NUMERIC,SDEF="Old Balance=F")
+    /FIELD=((Bills.Balance + Bills.Charge),POS=7,SEPARATOR="\t",NUMERIC,SDEF="New Bal=G")

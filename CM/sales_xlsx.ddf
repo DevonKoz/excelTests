@@ -1,0 +1,4 @@
+# /FILE=C:\testing123\base\20200930\workspace\Count\sales.xlsx
+#/PROCESS=XLSX,"'Sheet1'!A1:B9",HEADER
+/FIELD=(DEPT, POSITION=1, SEPARATOR='\t', SDEF="Dept=A")
+/FIELD=(SALES, POSITION=2, SEPARATOR='\t', SDEF="Sales=B")

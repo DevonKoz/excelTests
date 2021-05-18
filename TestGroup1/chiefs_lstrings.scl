@@ -1,0 +1,15 @@
+#Example SCL
+/INFILE="'Sheet1'!B1:E43;chiefsALLXLS.xls"
+/PROCESS=XLS
+/FIELD=(year,POSITION=1,SEPARATOR=",",SDEF="=C")
+/FIELD=(party,POSITION=2,SEPARATOR=",",SDEF="=D")
+/SORT
+/KEY=(year)
+/OUTFILE=stdout
+/PROCESS=RECORD
+	/FIELD=(year,pos=1,size=10)
+	/FIELD=(party,pos=11,size=5)
+
+
+
+

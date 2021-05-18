@@ -1,0 +1,272 @@
+[
+  {
+     "president" : "Washington, George",
+     "term" : { "start" : 1789, "end" : 1797},
+     "party" : "FED",
+     "state" : "VA"
+  },
+  {
+     "president" : "Adams, John",
+     "term" : { "start" : 1797, "end" : 1801},
+     "party" : "FED",
+     "state" : "MA"
+  },
+  {
+     "president" : "Jefferson, Thomas",
+     "term" : { "start" : 1801, "end" : 1809},
+     "party" : "D-R",
+     "state" : "VA"
+  },
+  {
+     "president" : "Madison, James",
+     "term" : { "start" : 1809, "end" : 1817 },
+     "party" : "D-R",
+     "state" : "VA"
+  },
+  {
+     "president" : "Monroe, James",
+     "term" : { "start" : 1817, "end" : 1825},
+     "party" : "D-R",
+     "state" : "VA"
+  },
+  {
+     "president" : "Adams, John Quincy",
+     "term" : { "start" : 1825, "end" :1829 },
+     "party" : "D-R",
+     "state" : "MA"
+  },
+  {
+     "president" : "Jackson, Andrew",
+     "term" : { "start" : 1829, "end" : 1837},
+     "party" : "DEM",
+     "state" : "SC"
+  },
+  {
+     "president" : "Van Buren, Martin",
+     "term" : { "start" : 1837, "end" : 1841},
+     "party" : "DEM",
+     "state" : "NY"
+  },
+  {
+     "president" : "Harrison, William Henry",
+     "term" : { "start" : 1841, "end" : 1841},
+     "party" : "WHG",
+     "state" : "VA"
+  },
+  {
+     "president" : "Tyler, John",
+     "term" : { "start" : 1841, "end" : 1845},
+     "party" : "WHG",
+     "state" : "VA"
+  },
+  {
+     "president" : "Polk, James K.",
+     "term" : { "start" : 1845, "end" : 1849},
+     "party" : "DEM",
+     "state" : "NC"
+  },
+  {
+     "president" : "Taylor, Zachary",
+     "term" : { "start" : 1849, "end" : 1850},
+     "party" : "WHG",
+     "state" : "VA"
+  },
+  {
+     "president" : "Fillmore, Millard",
+     "term" : { "start" : 1850, "end" : 1853},
+     "party" : "WHG",
+     "state" : "NY"
+  },
+  {
+     "president" : "Pierce, Franklin",
+     "term" : { "start" : 1853, "end" : 1857},
+     "party" : "DEM",
+     "state" : "NH"
+  },
+  {
+     "president" : "Buchanan, James",
+     "term" : { "start" : 1857, "end" : 1861},
+     "party" : "DEM",
+     "state" : "PA"
+  },
+  {
+     "president" : "Lincoln, Abraham",
+     "term" : { "start" : 1861, "end" : 1865},
+     "party" : "REP",
+     "state" : "IL"
+  },
+  {
+     "president" : "Johnson, Andrew",
+     "term" : { "start" : 1865, "end" : 1869},
+     "party" : "REP",
+     "state" : "NC"
+  },
+  {
+     "president" : "Grant, Ulysses S.",
+     "term" : { "start" : 1869, "end" : 1877},
+     "party" : "REP",
+     "state" : "IL"
+  },
+  {
+     "president" : "Hayes, Rutherford B.",
+     "term" : { "start" : 1877, "end" : 1881},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Garfield, James A.",
+     "term" : { "start" : 1881, "end" : 1881},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Arthur, Chester A.",
+     "term" : { "start" : 1881, "end" : 1885},
+     "party" : "REP",
+     "state" : "VT"
+  },
+  {
+     "president" : "Cleveland, Grover",
+     "term" : { "start" : 1885, "end" : 1889},
+     "party" : "DEM",
+     "state" : "NJ"
+  },
+  {
+     "president" : "Harrison, Benjamin",
+     "term" : { "start" : 1889, "end" : 1893},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Cleveland, Grover",
+     "term" : { "start" : 1893, "end" : 1897},
+     "party" : "DEM",
+     "state" : "NJ"
+  },
+  {
+     "president" : "McKinley, William",
+     "term" : { "start" : 1897, "end" : 1901},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Roosevelt, Theodore",
+     "term" : { "start" : 1901, "end" : 1909},
+     "party" : "REP",
+     "state" : "NY"
+  },
+  {
+     "president" : "Taft, William H.",
+     "term" : { "start" : 1909, "end" : 1913},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Wilson, Woodrow",
+     "term" : { "start" : 1913, "end" : 1921},
+     "party" : "DEM",
+     "state" : "VA"
+  },
+  {
+     "president" : "Harding, Warren G.",
+     "term" : { "start" : 1921, "end" : 1923},
+     "party" : "REP",
+     "state" : "OH"
+  },
+  {
+     "president" : "Coolidge, Calvin",
+     "term" : { "start" : 1923, "end" : 1929},
+     "party" : "REP",
+     "state" : "VT"
+  },
+  {
+     "president" : "Hoover, Herbert C.",
+     "term" : { "start" : 1929, "end" : 1933},
+     "party" : "REP",
+     "state" : "IA"
+  },
+  {
+     "president" : "Roosevelt, Franklin D.",
+     "term" : { "start" : 1933, "end" : 1945},
+     "party" : "DEM",
+     "state" : "NY"
+  },
+  {
+     "president" : "Truman, Harry S.",
+     "term" : { "start" : 1945, "end" : 1953},
+     "party" : "DEM",
+     "state" : "MI"
+  },
+  {
+     "president" : "Eisenhower, Dwight D.",
+     "term" : { "start" : 1953, "end" : 1961},
+     "party" : "REP",
+     "state" : "TX"
+  },
+  {
+     "president" : "Kennedy, John F.",
+     "term" : { "start" : 1961, "end" : 1963},
+     "party" : "DEM",
+     "state" : "MA"
+  },
+  {
+     "president" : "Johnson, Lyndon B.",
+     "term" : { "start" : 1963, "end" : 1969},
+     "party" : "DEM",
+     "state" : "TX"
+  },
+  {
+     "president" : "Nixon, Richard M.",
+     "term" : { "start" : 1969, "end" : 1973},
+     "party" : "REP",
+     "state" : "CA"
+  },
+  {
+     "president" : "Ford, Gerald R.",
+     "term" : { "start" : 1973, "end" : 1977},
+     "party" : "REP",
+     "state" : "NB"
+  },
+  {
+     "president" : "Carter, James E.",
+     "term" : { "start" : 1977, "end" : 1981},
+     "party" : "DEM",
+     "state" : "GA"
+  },
+  {
+     "president" : "Reagan, Ronald W.",
+     "term" : { "start" : 1981, "end" : 1989},
+     "party" : "REP",
+     "state" : "IL"
+  },
+  {
+     "president" : "Bush, George H.W.",
+     "term" : { "start" : 1989, "end" : 1993},
+     "party" : "REP",
+     "state" : "TX"
+  },
+  {
+     "president" : "Clinton, William J.",
+     "term" : { "start" : 1993, "end" : 2001},
+     "party" : "DEM",
+     "state" : "AR"
+  },
+  {
+     "president" : "Bush, George W.",
+     "term" : { "start" : 2001, "end" : 2009},
+     "party" : "REP",
+     "state" : "TX"
+  },
+  {
+     "president" : "Obama, Barack",
+     "term" : { "start" : 2009, "end" : 2017},
+     "party" : "DEM",
+     "state" : "HI"
+  },
+  {
+     "president" : "Trump, Donald",
+     "term" : { "start" : 2017, "end" : null},
+     "party" : "REP",
+     "state" : "NY"
+  }
+]

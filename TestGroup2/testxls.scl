@@ -1,0 +1,14 @@
+/INFILE=chiefs
+/PROCESS=RECORD
+/INCOLLECT=8
+/FIELD=(name,position=1,size=27)
+/FIELD=(year,position=28,size=12)
+/FIELD=(party,position=40,size=5)
+/FIELD=(state,position=45,size=2)
+/REPORT
+/OUTFILE="'Sheet1'!B1:E9,HEADER;chiefsAllXLSeasy.xls"
+/PROCESS=XLS
+/FIELD=(name,position=1,size=27,SDEF="NAME=B")
+/FIELD=(year,position=28,size=12,SDEF="YEAR=C")
+/FIELD=(party,position=40,size=5,SDEF="PARTY=D")
+/FIELD=(state,position=45,size=2,SDEF="STATE=E")

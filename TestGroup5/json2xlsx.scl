@@ -1,0 +1,16 @@
+/INFILE=chiefs.json
+/PROCESS=JSON
+  /FIELD=(president)
+  /FIELD=(term.start)
+  /FIELD=(term.end)
+  /FIELD=(party)
+  /FIELD=(state)
+ /REPORT
+#/OUTFILE=stdout
+/OUTFILE="'Sheet1'!A1:F45;OUT.xlsx"
+/process=XLSX
+  /FIELD=(president,POSITION=1,SDEF="=F",SEPARATOR='\t')
+  /FIELD=(term.start,POSITION=2,SDEF="=B",SEPARATOR='\t')
+  /FIELD=(term.end,POSITION=3,SDEF="=C",SEPARATOR='\t')
+  /FIELD=(party,POSITION=4,SDEF="=D",SEPARATOR='\t')
+  /FIELD=(state,POSITION=5,SDEF="=E",SEPARATOR='\t')

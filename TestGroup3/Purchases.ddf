@@ -1,0 +1,3 @@
+/FIELD=(Acct_nb,POS=1,SIZE=5)
+/FIELD=(Item,POS=7,SIZE=8)
+/FIELD=(Charge,POS=15,SIZE=6)

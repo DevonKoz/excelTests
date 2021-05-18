@@ -1,0 +1,8 @@
+#Example SCL
+/INFILE=chiefs
+/PROCESS=RECORD
+/FIELD=(president,POSITION=1,SIZE=27)
+/REPORT
+/OUTFILE="'Sheet1'!A1:A43;chiefstest.xlsx"
+/PROCESS=XLSX
+/FIELD=(president, POSITION=1, SDEF="=A")

@@ -1,0 +1,10 @@
+/INFILE=personal_info
+    /FIELD=(credit_card,POSITION=1,SEPARATOR='\t')
+    /FIELD=(driv_lic,POSITION=2,SEPARATOR='\t')
+    /FIELD=(name,POSITION=3,SEPARATOR='\t')
+/REPORT
+/OUTFILE="'Sheet1'!M1:O10;personal_info_encrypted.xlsx"
+/PROCESS=XLSX
+    /FIELD=(credit_card1=enc_fp_aes256_ascii(credit_card,"pass"),POSITION=1,SEPARATOR='\t',SDEF="=M")
+    /FIELD=(driv_lic1=enc_fp_aes256_ascii(driv_lic,"pass"),POSITION=2,SEPARATOR='\t',SDEF="=N")
+    /FIELD=(name,POSITION=3,SEPARATOR='\t',SDEF="=O")

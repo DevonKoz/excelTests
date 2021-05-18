@@ -1,0 +1,26 @@
+# Generated with IRI Workbench - New Test Data Job
+#
+ # Author: dakoz
+ # Created: 2020-02-22 05:33:55
+ #
+ # Generate Data
+ #
+
+/INFILES=random_file_placeholder
+	/PROCESS=RANDOM
+	/INCOLLECT=5000
+	/FIELD=(FIELD1, TYPE=ASCII, POSITION=1, SEPARATOR="\t",SET={Dolphin,Fish,Sloth})
+	/FIELD=(FIELD2, TYPE=ASCII, POSITION=2, SEPARATOR="\t",SET={Monkey,Giraffe,Elephant,Dog})
+	/FIELD=(FIELD3, TYPE=ASCII, POSITION=3, SEPARATOR="\t",SET={Red,Orange,Yellow,Blue})
+
+/REPORT
+/OUTFILE="'Sheet1'!A1:C5001,H;rgen.xlsx"
+/PROCESS=XLSX
+/FIELD=(FIELD1, TYPE=ASCII, POSITION=1, FRAME='"',SEPARATOR="\t",SDEF="Animal=A")
+	/FIELD=(FIELD2, TYPE=ASCII, POSITION=2, FRAME='"',SEPARATOR="\t",SDEF="Another Animal=B")
+	/FIELD=(FIELD3, TYPE=ASCII, POSITION=3, FRAME='"',SEPARATOR="\t",SDEF="Color=C")
+/OUTFILE="'Sheet1'!A1:C5001,H;rgen.xls"
+/PROCESS=XLS
+/FIELD=(FIELD1, TYPE=ASCII, POSITION=1, FRAME='"',SEPARATOR="\t",SDEF="Animal=A")
+	/FIELD=(FIELD2, TYPE=ASCII, POSITION=2, FRAME='"',SEPARATOR="\t",SDEF="Another Animal=B")
+	/FIELD=(FIELD3, TYPE=ASCII, POSITION=3, FRAME='"',SEPARATOR="\t",SDEF="Color=C")

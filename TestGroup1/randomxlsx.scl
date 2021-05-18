@@ -1,0 +1,15 @@
+/INFILE=simple.in
+    /INCOLLECT=5
+    /PROCESS=RANDOM
+    /FIELD=(code,pos=1,size=5,ALPHA_DIGIT)
+    /FIELD=(value,POSITION=10,size=7,precision=2, numeric)
+    /INCLUDE WHERE value >10
+/REPORT
+/OUTFILE="'Sheet1'!A1:B5;randomnums.xlsx"
+    /PROCESS=XLSX
+    /FIELD=(code,POS=1,size=5,ASCII,SDEF="=A")
+    /FIELD=(value,POS=10,SIZE=12,PRECISION=2,NUMERIC,FILL='0',SDEF="=B")
+/OUTFILE="'Sheet1'!BB1:BC6,HEADER;randomnums.xls"
+/PROCESS=XLS
+/FIELD=(code,POS=1, SEPARATOR=",",SDEF="Code=BB")
+/FIELD=(value,POS=2,SEPARATOR=",",SDEF="Value=BC")

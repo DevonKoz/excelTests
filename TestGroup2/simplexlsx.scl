@@ -1,0 +1,14 @@
+/INFILE=data.in
+    /PROCESS=record
+    /FIELD=(president,POSITION=1,SEPARATOR='|')
+    /FIELD=(term,POSITION=2,SEPARATOR='|')
+    /FIELD=(party,POSITION=3,SEPARATOR='|')
+    /FIELD=(state,POSITION=4,SEPARATOR='|')
+/SORT
+    /KEY=president
+/OUTFILE=data.xlsx
+    /PROCESS=XLSX
+    /FIELD=(president,POSITION=1,SEPARATOR='|')
+    /FIELD=(term,POSITION=2,SEPARATOR='|')
+    /FIELD=(party,POSITION=3,SEPARATOR='|')
+    /FIELD=(state,POSITION=4,SEPARATOR='|')

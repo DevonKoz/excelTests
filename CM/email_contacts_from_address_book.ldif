@@ -1,0 +1,51 @@
+dn: cn=George White,mail=georgew@somecompany.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: George
+sn: White
+cn: George White
+mail: georgew@somecompany.com
+modifytimestamp: 0Z
+telephoneNumber: 123-555-6780
+
+dn: cn=Jane Doe,mail=janed@somecompany.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Jane
+sn: Doe
+cn: Jane Doe
+mail: janed@somecompany.com
+modifytimestamp: 0Z
+telephoneNumber: 123-555-5679
+
+dn: cn=Maria Garcia,mail=maria@yahoo.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: Maria
+sn: Garcia
+cn: Maria Garcia
+mail: maria@yahoo.com
+modifytimestamp: 0Z
+telephoneNumber: 123-555-6789
+
+dn: cn=James Smith,mail=jamess@somecompany.com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: mozillaAbPersonAlpha
+givenName: James
+cn: James Smith
+mail: jamess@somecompany.com
+modifytimestamp: 0Z
+telephoneNumber: 123-555-1234
+

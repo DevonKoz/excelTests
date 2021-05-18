@@ -1,0 +1,9 @@
+/INFILE="'Sheet1'!BB1:BC6,HEADER;randomnums.xls"
+/PROCESS=XLS
+/FIELD=(code,POS=1, SEPARATOR="\t",SDEF="Code")
+/FIELD=(value,POS=2,SEPARATOR="\t",SDEF="Value")
+/SORT
+	/KEY=(Value)
+/OUTFILE=randomnums.txt
+/FIELD=(code,POS=1,size=5)
+/FIELD=(value,POS=7,SIZE=12)

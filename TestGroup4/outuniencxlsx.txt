@@ -1,0 +1,5 @@
+"FIELD1"	"FIELD2"	"FIELD3"	"FIELD4"
+"B4Rrj1DMMfXGDsgysiOu7h8whnyObOde6UVHFlb1j2g="	"1789-1797"	"FED dddd"	"VA"
+"TS7PgdNXc13FgqG08kiyRQ=="	"1797-1801"	"FED"	"MA"
+"ICknpQYuUIQXXhFqpQ1kQll/16NuQkhhkqHstodo8VA="	"1801-1809"	"D-R"	"VA"
+"XOr3AZT60U9xUVaXszqu5A=="	"1809-1817"	"D-R"	"VA"

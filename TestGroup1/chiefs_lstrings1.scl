@@ -1,0 +1,12 @@
+#Example SCL
+/INFILE="'Sheet1'!A1:F2,HEADER,VERTICAL;new.xls"
+/PROCESS=XLS
+/FIELD=(Fname,pos=1,SEPARATOR=',',SDEF="FirstName=1")
+/FIELD=(Lname,pos=2,SEPARATOR=',',SDEF="LastName=2")
+/REPORT
+/OUTFILE=stdout
+/FIELD=(Fname,pos=1,SIZE=15)
+/Field=(Lname,pos=16,SIZE=15)
+
+
+
