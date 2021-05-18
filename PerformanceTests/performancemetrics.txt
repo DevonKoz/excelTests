@@ -1,7 +1,0 @@
-running /SPEC=bigdata.scl 
-Sat 10/31/2020 14:22:38.43: Begin running bigdata.scl -
-running /SPEC=bigdata2.scl 
-Sat 10/31/2020 14:22:40.05: Begin running bigdata2.scl -
-running /SPEC=bigdataxls.scl 
-Sat 10/31/2020 14:22:41.22: Begin running bigdataxls.scl -
-Sat 10/31/2020 14:22:41.22: Finished running performancetests.bat-

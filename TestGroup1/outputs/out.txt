@@ -1,0 +1,5 @@
+Ebeneezer Scrooge	179	Y
+John Doe	78	M
+Mary Smith	45	F
+Mr. Ed	25	X
+li'l Abner	8	N

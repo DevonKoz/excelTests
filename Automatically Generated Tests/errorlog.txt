@@ -1,1 +1,0 @@
-Mon 02/01/2021 11:36:43.91: Error encountered running test0.scl 

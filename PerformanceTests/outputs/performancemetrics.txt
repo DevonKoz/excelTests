@@ -1,0 +1,21 @@
+running /SPEC=bigdata.scl 
+Sat 10/31/2020 14:22:38.43: Begin running bigdata.scl -
+running /SPEC=bigdata2.scl 
+Sat 10/31/2020 14:22:40.05: Begin running bigdata2.scl -
+running /SPEC=bigdataxls.scl 
+Sat 10/31/2020 14:22:41.22: Begin running bigdataxls.scl -
+Sat 10/31/2020 14:22:41.22: Finished running performancetests.bat-
+running /SPEC=bigdata.scl 
+Tue 05/18/2021 14:32:07.59: Begin running bigdata.scl -
+running /SPEC=bigdata2.scl 
+Tue 05/18/2021 14:32:09.58: Begin running bigdata2.scl -
+running /SPEC=bigdataxls.scl 
+Tue 05/18/2021 14:32:30.10: Begin running bigdataxls.scl -
+Tue 05/18/2021 14:32:30.11: Finished running performancetests.bat-
+running /SPEC=bigdata.scl 
+Tue 05/18/2021 16:41:34.51: Begin running bigdata.scl -
+running /SPEC=bigdata2.scl 
+Tue 05/18/2021 16:41:36.52: Begin running bigdata2.scl -
+running /SPEC=bigdataxls.scl 
+Tue 05/18/2021 16:41:57.01: Begin running bigdataxls.scl -
+Tue 05/18/2021 16:41:57.02: Finished running performancetests.bat-
