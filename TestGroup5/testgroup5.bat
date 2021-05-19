@@ -11,3 +11,4 @@ if errorlevel 1 (
 echo !date! !time!: Error encountered running %%x! >> errorlog.txt
 )
 )
+call python tg5.py
